@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+COLOR PALETTE
+https://coolors.co/e8e9f3-cecece-a6a6a8-272635-b1e5f2
+#E8E9F3 - GLITTER
+#CECECE - PASTEL GRAY 
+#A6A6A8 - QUICK SILVER
+#272635 - CHARLESTON GREEN
+#B1E5F2 - BLUE LAGOON
+*/
+
+
+/* Global styles
+-------------------------------------------*/
+body {
+color: #272635;
+}
+img {
+		width: 300px;
+}
+a {
+	color: #A6A6A8;
+}
+.btn {
+	color: #A6A6A8;
+	background: #272635;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background: rgba(39,38,53,80%)
+}
+
+/* Profile
+-------------------------------------------*/
+header {
+	background: #E8E9F3;
+}
+
+/* Projects
+-------------------------------------------*/
+.projects {
+	background: #B1E5F2;
+}
+
+/* Work Experience
+-------------------------------------------*/
+.work-experience {
+	background: #E8E9F3;
+}
+
+/* Education
+-------------------------------------------*/
+.education {
+	background: #B1E5F2;
+}
+
+/* Contact Info
+-------------------------------------------*/
+
+
+
+
+
+
+
+
