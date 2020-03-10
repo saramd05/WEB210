@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+COLOR PALETTE
+https://coolors.co/e8e9f3-cecece-a6a6a8-272635-b1e5f2
+#E8E9F3 - GLITTER
+#CECECE - PASTEL GRAY 
+#A6A6A8 - QUICK SILVER
+#272635 - CHARLESTON GREEN
+#B1E5F2 - BLUE LAGOON
+
+#F0F7EE - HONEYDEW
+#C4D7F2 - COLUMBIA BLUE
+#AFDEDC - POWDER BLUE
+*/
+
+/* Navigation
+-------------------------------------------*/
+#nav {
+	background: #000000;
+	width: 100%;
+	display: inline-block;
+}
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	line-height: 3;
+}
+#nav a {
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+}
+#nav li {
+	float: left;
+	width: 150px;
+}
+#nav li ul {
+	position: absolute;
+	width: 150px;
+	left: -999em;
+	background: #000000;
+}
+#nav li:hover ul {
+	left: auto;
+}
+#nav ul li {
+	display: inline-block;
+	position: relative;
+	padding: 15px 20px;
+	background: #000000;
+	cursor: pointer;
+}
+#nav ul li:hover {
+	background: #4B4949;
+}
+#nav ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: -10000px;
+	width: 150px;
+}
+#nav ul li ul li {
+	background: #000000;
+	display: block;
+	color: #4B4949;
+}
+#nav ul li ul li:hover {
+	background: #4B4949;
+}
+
+
+
+/* Global styles
+-------------------------------------------*/
+h1 {
+	margin: 0;
+	font-size: 60px;
+	line-height: 1;
+	text-shadow: 1px 1px 1px #fff, 1px 1px 2px #111;
+}
+h2 { 
+	margin: 0;
+	font-size: 40px;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #fff, 1px 1px 1px #111;
+}
+h1, h2{
+	font-family: 'Kalam', cursive;
+	
+}
+p {
+	margin: 0;
+	padding: inherit;
+}
+footer {
+	margin: 0;
+}
+body {
+	color: #272635;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	line-height: 1.5;
+}
+img {
+	width: 300px;
+}
+a {
+	color: #A6A6A8;
+}
+.btn {
+	color: #A6A6A8;
+	background: #272635;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background: rgba(39,38,53,80%)
+}
+.content-wrap {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;	
+}
+
+
+/* Profile
+-------------------------------------------*/
+header {
+	background: #E8E9F3;
+}
+
+/* Projects
+-------------------------------------------*/
+.projects {
+	background: #B1E5F2;
+}
+
+/* Work Experience
+-------------------------------------------*/
+.work-experience {
+	background: #F0F7EE;
+}
+.job-item {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 20px;
+}
+
+/* Education
+-------------------------------------------*/
+.education {
+	background: #C4D7F2;
+}
+
+/* Contact Info
+-------------------------------------------*/
+
+
+
+
+
+
+
+
